@@ -36,9 +36,18 @@ const posts = [
   },
 ];
 
+//! --- ROTTE ---
+
 //^ Rotta principale
 app.get("/", (req, res) => {
   res.send("Server del mio blog");
+});
+
+//^ Rotta per la Bacheca
+app.get("/bacheca", (req, res) => {
+  res.json({
+    posts: posts,
+  });
 });
 
 //^ Avvio del server
