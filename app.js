@@ -36,6 +36,9 @@ const posts = [
   },
 ];
 
+//^ Middleware --> asset statici
+app.use(express.static("public"));
+
 //! --- ROTTE ---
 
 //^ Rotta principale
