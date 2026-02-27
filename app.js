@@ -37,7 +37,7 @@ const posts = [
 ];
 
 //^ Middleware --> asset statici
-app.use(express.static("public"));
+app.use("/static", express.static("public"));
 
 //! --- ROTTE ---
 
