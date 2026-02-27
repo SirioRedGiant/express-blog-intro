@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
 
 //^ Avvio del server
 app.listen(port, () => {
-  console.log(`Esempio di blog in ascolto su http://localhost:${port}`);
+  console.log(`Server avviato --> http://localhost:${port}`);
 });
