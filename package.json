@@ -1,0 +1,20 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "Creazione di un environment per un web server(inizio)",
+  "keywords": [
+    "nodejs",
+    "inizio",
+    "pratica"
+  ],
+  "license": "ISC",
+  "author": "Sirio Ghiringhelli",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
